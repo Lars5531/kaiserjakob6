@@ -1,0 +1,220 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Nav.js": {
+    "file": "chunks/Nav.js",
+    "name": "Nav",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_attributes.js": {
+    "file": "chunks/attributes.js",
+    "name": "attributes",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
+  "_font-awesome.min.js": {
+    "file": "_app/immutable/assets/font-awesome.CrgqXFgp.css",
+    "src": "_font-awesome.min.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_equality.js",
+      "_index2.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_equality.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/font-awesome/fonts/fontawesome-webfont.eot": {
+    "file": "_app/immutable/assets/fontawesome-webfont.G5YE5S7X.eot",
+    "src": "node_modules/font-awesome/fonts/fontawesome-webfont.eot"
+  },
+  "node_modules/font-awesome/fonts/fontawesome-webfont.svg": {
+    "file": "_app/immutable/assets/fontawesome-webfont.D13rzr4g.svg",
+    "src": "node_modules/font-awesome/fonts/fontawesome-webfont.svg"
+  },
+  "node_modules/font-awesome/fonts/fontawesome-webfont.ttf": {
+    "file": "_app/immutable/assets/fontawesome-webfont.CQDK8MU3.ttf",
+    "src": "node_modules/font-awesome/fonts/fontawesome-webfont.ttf"
+  },
+  "node_modules/font-awesome/fonts/fontawesome-webfont.woff": {
+    "file": "_app/immutable/assets/fontawesome-webfont.CDK5bt4p.woff",
+    "src": "node_modules/font-awesome/fonts/fontawesome-webfont.woff"
+  },
+  "node_modules/font-awesome/fonts/fontawesome-webfont.woff2": {
+    "file": "_app/immutable/assets/fontawesome-webfont.B-jkhYfk.woff2",
+    "src": "node_modules/font-awesome/fonts/fontawesome-webfont.woff2"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.JW-QxNdr.css",
+      "_app/immutable/assets/font-awesome.CrgqXFgp.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fontawesome-webfont.G5YE5S7X.eot",
+      "_app/immutable/assets/fontawesome-webfont.B-jkhYfk.woff2",
+      "_app/immutable/assets/fontawesome-webfont.CDK5bt4p.woff",
+      "_app/immutable/assets/fontawesome-webfont.CQDK8MU3.ttf",
+      "_app/immutable/assets/fontawesome-webfont.D13rzr4g.svg"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Nav.js",
+      "_attributes.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.C0XqJUfh.css",
+      "_app/immutable/assets/font-awesome.CrgqXFgp.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fontawesome-webfont.G5YE5S7X.eot",
+      "_app/immutable/assets/fontawesome-webfont.B-jkhYfk.woff2",
+      "_app/immutable/assets/fontawesome-webfont.CDK5bt4p.woff",
+      "_app/immutable/assets/fontawesome-webfont.CQDK8MU3.ttf",
+      "_app/immutable/assets/fontawesome-webfont.D13rzr4g.svg"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Nav.js"
+    ]
+  },
+  "src/routes/api/videos/+server.ts": {
+    "file": "entries/endpoints/api/videos/_server.ts.js",
+    "name": "entries/endpoints/api/videos/_server.ts",
+    "src": "src/routes/api/videos/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "name": "entries/pages/contact/_page.svelte",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_attributes.js",
+      "_Nav.js"
+    ]
+  },
+  "src/routes/contact/+server.ts": {
+    "file": "entries/endpoints/contact/_server.ts.js",
+    "name": "entries/endpoints/contact/_server.ts",
+    "src": "src/routes/contact/+server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/impressum/+page.svelte": {
+    "file": "entries/pages/impressum/_page.svelte.js",
+    "name": "entries/pages/impressum/_page.svelte",
+    "src": "src/routes/impressum/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Nav.js"
+    ]
+  },
+  "src/routes/privacy/+page.svelte": {
+    "file": "entries/pages/privacy/_page.svelte.js",
+    "name": "entries/pages/privacy/_page.svelte",
+    "src": "src/routes/privacy/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Nav.js"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "entries/pages/projects/_page.svelte.js",
+    "name": "entries/pages/projects/_page.svelte",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_attributes.js",
+      "_Nav.js"
+    ]
+  },
+  "src/routes/services/+page.svelte": {
+    "file": "entries/pages/services/_page.svelte.js",
+    "name": "entries/pages/services/_page.svelte",
+    "src": "src/routes/services/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index2.js",
+      "_Nav.js"
+    ]
+  }
+}
