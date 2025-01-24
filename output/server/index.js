@@ -137,7 +137,7 @@ const escape_html_dict = {
   "<": "&lt;"
 };
 const surrogates = (
-  // high surrogate without paired low surrogate
+  // high surrogate without paired low surrogateee
   "[\\ud800-\\udbff](?![\\udc00-\\udfff])|[\\ud800-\\udbff][\\udc00-\\udfff]|[\\udc00-\\udfff]"
 );
 const escape_html_attr_regex = new RegExp(
